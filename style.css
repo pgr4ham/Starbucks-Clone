@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(39, 39, 39);
+  scroll-behavior: smooth;
+
+  line-height: 1.6em;
+  margin:0;
+}
+  
+.container{
+  width: 80%;
+  margin: auto;
+  flex:center;
+}
+
+.form-username{
+margin: 10px;
+border-style: solid;
+border-radius: 12px;
+border-width: 0px;
+transition: 0.09s;
+transition-timing-function: ease-out;
+}
+
+.form-username:hover{
+  transition-timing-function: ease-in;
+transition: 0.25s;
+border-color: purple;
+border-width: 2px;
+border-style: solid;
+border-radius: 12px;
+
+}
+
+
+.form-email{
+  margin: 10px;
+}
+
+.form-passsword{
+  margin:10px;
+}
+
+.form-button{
+  margin:10px;
+}
